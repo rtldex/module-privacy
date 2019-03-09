@@ -5,7 +5,7 @@
 $agreement = $this->getAgreement();
 ?>
 <div class="field privacy-container required">
-    <label for="<?php echo $block->getNameInLayout(); ?>">
+    <label for="<?php echo $block->getNameInLayout(); ?>" class="label">
         <span><?php echo $agreement->getIsHtml() ? $agreement->getCheckboxText() : $block->escapeHtml($agreement->getCheckboxText()) ?></span>
     </label>
     <div class="control">
