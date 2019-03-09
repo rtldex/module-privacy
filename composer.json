@@ -1,21 +1,21 @@
 {
-  "name": "artera/module-privacy",
-  "description": "A Magento 2 module that adds the Privacy acceptance checkbox in customer registration page, contact page and newsletter subscription form (retrieving text from Terms and Conditions).",
-  "version": "2.0.3",
+  "name": "rtldex/module-privacy",
+  "description": "GDPR Accept",
+  "version": "1.0.0",
   "type": "magento2-module",
   "authors": [
     {
-      "name": "Roberto Rubino",
-      "email": "robertorubino@artera.it",
-      "homepage": "http://www.artera.it",
+      "name": "Ionut Ungureanu",
+      "email": "rtl.dex@gmail.com",
+      "homepage": "",
       "role": "Developer"
     }
   ],
   "license": "MIT",
   "require": {
-    "magento/module-checkout-agreements": "~100.0",
-    "magento/module-cms": ">=100 <102",
-    "magento/module-newsletter": "~100.0"
+    "magento/module-checkout-agreements": "100.2.1",
+    "magento/module-cms": "102.0.5",
+    "magento/module-newsletter": "100.2.4"
   },
   "autoload": {
     "files": [ "registration.php" ],
